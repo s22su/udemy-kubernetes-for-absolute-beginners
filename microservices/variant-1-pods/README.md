@@ -1,4 +1,6 @@
-**NB! Doesn't fully work because of [this](https://github.com/dockersamples/example-voting-app/issues/162#issuecomment-613201534).**
+~~**NB! Doesn't fully work because of [this](https://github.com/dockersamples/example-voting-app/issues/162#issuecomment-613201534).**~~
+
+**Temp fix by using `khozemanullwala/examplevotingapp_worker` image.**
 
 ```bash
 kubectl create -f voting-app-pod.yml
